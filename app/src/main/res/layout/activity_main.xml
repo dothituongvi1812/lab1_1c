@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity"
+    android:background="@drawable/background_gradient">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="113dp"
+    android:textSize="60dp"
+    android:fontFamily="sans-serif"
+    android:textFontWeight="700"
+    android:textStyle="normal"
+    android:text="CODE"
+    android:textAlignment="center"
+    android:textColor="#000"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="62dp"
+
+    android:text="VERIFICATION"
+    android:textAlignment="center"
+    android:textSize="20dp"
+    android:fontFamily="sans-serif"
+    android:textFontWeight="700"
+    android:textStyle="normal"
+    android:textColor="#000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="Enter ontime password sent on \n ++8490905798"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:textFontWeight="700"
+        android:textStyle="normal"
+        android:textColor="#000"
+        android:paddingBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtcode"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/my_edit_border"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edtcode1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/my_edit_border"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edtcode2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/my_edit_border"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edtcode3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/my_edit_border"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edtcode4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/my_edit_border"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edtcode5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/my_edit_border"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:backgroundTint="#E3C000"
+        android:text="VERIFY CODE"
+        android:layout_marginTop="34dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:textFontWeight="700"
+        android:textStyle="normal"
+        android:textColor="#000"
+        android:textAlignment="center"
+       />
+
+
+</LinearLayout>
